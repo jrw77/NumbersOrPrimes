@@ -12,6 +12,10 @@
 		92437C031C90876400135EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92437C011C90876400135EB0 /* Main.storyboard */; };
 		92437C051C90876400135EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92437C041C90876400135EB0 /* Assets.xcassets */; };
 		92437C081C90876400135EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92437C061C90876400135EB0 /* LaunchScreen.storyboard */; };
+		92437C131C9087CC00135EB0 /* PrimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92437C0F1C9087CC00135EB0 /* PrimeTableViewCell.swift */; };
+		92437C141C9087CC00135EB0 /* PrimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92437C101C9087CC00135EB0 /* PrimeTableViewController.swift */; };
+		92437C151C9087CC00135EB0 /* PrimeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92437C111C9087CC00135EB0 /* PrimeDataSource.swift */; };
+		92437C161C9087CC00135EB0 /* PrimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92437C121C9087CC00135EB0 /* PrimeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		92437C041C90876400135EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92437C071C90876400135EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92437C091C90876400135EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92437C0F1C9087CC00135EB0 /* PrimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeTableViewCell.swift; sourceTree = "<group>"; };
+		92437C101C9087CC00135EB0 /* PrimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeTableViewController.swift; sourceTree = "<group>"; };
+		92437C111C9087CC00135EB0 /* PrimeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeDataSource.swift; sourceTree = "<group>"; };
+		92437C121C9087CC00135EB0 /* PrimeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				92437BFD1C90876400135EB0 /* AppDelegate.swift */,
 				92437BFF1C90876400135EB0 /* ViewController.swift */,
+				92437C0F1C9087CC00135EB0 /* PrimeTableViewCell.swift */,
+				92437C101C9087CC00135EB0 /* PrimeTableViewController.swift */,
+				92437C111C9087CC00135EB0 /* PrimeDataSource.swift */,
+				92437C121C9087CC00135EB0 /* PrimeDetailViewController.swift */,
 				92437C011C90876400135EB0 /* Main.storyboard */,
 				92437C041C90876400135EB0 /* Assets.xcassets */,
 				92437C061C90876400135EB0 /* LaunchScreen.storyboard */,
@@ -135,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92437C131C9087CC00135EB0 /* PrimeTableViewCell.swift in Sources */,
+				92437C141C9087CC00135EB0 /* PrimeTableViewController.swift in Sources */,
+				92437C151C9087CC00135EB0 /* PrimeDataSource.swift in Sources */,
+				92437C161C9087CC00135EB0 /* PrimeDetailViewController.swift in Sources */,
 				92437C001C90876400135EB0 /* ViewController.swift in Sources */,
 				92437BFE1C90876400135EB0 /* AppDelegate.swift in Sources */,
 			);
